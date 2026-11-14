@@ -72,3 +72,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Claude Code skills: local link to .agents/skills, created by setup-agents.ps1
+/.claude/skills

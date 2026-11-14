@@ -12,6 +12,26 @@ Unreal Engine files: packages (`.uasset`, `.umap`) and containers (`.pak`,
 `.utoc`/`.ucas`). Each asset is made by hand in the editor and saved or
 cooked by the engine, so the tests read the same data as in real projects.
 
+## Setup
+
+### Agent skills
+
+Skills for coding agents live in [`.agents/skills/`](.agents/skills). Codex
+and other agents that follow the [Agent Skills](https://agentskills.io)
+standard read them from there. Claude Code reads `.claude/skills/` instead, so
+after cloning run once:
+
+```powershell
+powershell -NoProfile -File setup-agents.ps1
+```
+
+The script links `.claude/skills` to `.agents/skills` (a directory junction on
+Windows, so no admin rights or Developer Mode are needed). The link is local
+and ignored by Git. Run the script again if you move the repository folder.
+
+To add a skill, create a folder with a `SKILL.md` in `.agents/skills/`. Both
+agents see it without further setup.
+
 ## License
 
 Copyright BIBBIT Michal Nowak.

@@ -5,20 +5,22 @@ description: Generate Unreal Engine PkgInfo dumps (`<AssetName>.pkginfo.txt` sav
 
 # PkgInfo dumps
 
-Run the bundled script; it does everything (finds the `.uproject`, resolves the engine from
-`EngineAssociation`, runs the commandlet once per asset, verifies the output):
+Run the bundled script from the repo root; it does everything (finds the `.uproject`, resolves
+the engine from `EngineAssociation`, runs the commandlet once per asset, verifies the output):
 
-```powershell
-& .claude\skills\pkginfo\scripts\Invoke-PkgInfo.ps1 <asset1> <asset2> ...
+```
+powershell -NoProfile -File .agents/skills/pkginfo/scripts/Invoke-PkgInfo.ps1 <asset1> <asset2> ...
 ```
 
 - Assets are `.uasset` / `.umap` paths, absolute or relative to the repo root. If the user gives
-  bare names (e.g. `M_Summary`), find the files under `Content/` first (Glob `**/M_Summary.*`).
+  bare names (e.g. `M_Summary`), first find `M_Summary.uasset` / `M_Summary.umap` under `Content/`.
 - Output: `<AssetName>.pkginfo.txt` in the asset's folder, overwritten if present.
-- Default switches are `-all` (summary, name map, imports, exports, ...). Pass other PkgInfo
-  switches with `-ExtraArgs @('-names','-imports')` only if the user asks for a narrower dump.
+- Default switches are `-all` (summary, name map, imports, exports, ...). Only if the user asks
+  for a narrower dump, call the script from PowerShell with other PkgInfo switches:
+  `& .agents/skills/pkginfo/scripts/Invoke-PkgInfo.ps1 <asset> -ExtraArgs @('-names','-imports')`.
 - Overrides: `-Project <path.uproject>`, `-EngineDir <engine root>` when auto-detection fails.
-- Each run takes ~30–60 s (editor startup), so use a long timeout (e.g. 600000 ms) for several assets.
+- Each run takes ~30–60 s (editor startup), so allow a long command timeout (several minutes)
+  when dumping more than one asset.
 - Exit code 1 means at least one asset failed; the `FAIL` line names its log
   (`%TEMP%\pkginfo-logs\<AssetName>.log`) — read it before reporting.
 
