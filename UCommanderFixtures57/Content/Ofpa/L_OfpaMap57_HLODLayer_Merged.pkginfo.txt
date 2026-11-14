@@ -1,0 +1,199 @@
+﻿********************************************
+Package '/Temp/Ofpa/L_OfpaMap57_HLODLayer_Merged' Summary
+--------------------------------------------
+	         Filename: E:/GitHub/Bibbit/UCommanderFixtures/UCommanderFixtures57/Content/Ofpa/L_OfpaMap57_HLODLayer_Merged.uasset
+	     File Version: 1018
+	   Engine Version: 5.7.4-51494982+++UE5+Release-5.7
+	   Compat Version: 5.7.0-47537391+++UE5+Release-5.7
+	     PackageFlags: 0
+	        NameCount: 46
+	       NameOffset: 397
+	      ImportCount: 7
+	     ImportOffset: 1719
+	      ExportCount: 2
+	     ExportOffset: 1999
+	Compression Flags: 0
+	  Custom Versions:
+		Key=e4b068ed-f494-42e9-a231-da0b2e46bb41 Version = 40 Friendly Name = Dev-Editor
+
+	        SavedHash: e82663bb9c659c6d4eb020c9a0ff9f5a1f524d0a
+	   PersistentGuid: B1E7EAAF495C061754354E825057AA04
+	      Generations:
+			0) ExportCount=2, NameCount=46 
+--------------------------------------------
+Name Map
+========
+	0: Name '/Script/Engine' Comparison Index 6876 Display Index 6876 [Internal: /Script/Engine, 0]
+	1: Name 'bAllowTwoSidedMaterial' Comparison Index 425937 Display Index 425937 [Internal: bAllowTwoSidedMaterial, 0]
+	2: Name 'bEmissiveMap' Comparison Index 425917 Display Index 425917 [Internal: bEmissiveMap, 0]
+	3: Name 'bGenerateLightMapUV' Comparison Index 426191 Display Index 426191 [Internal: bGenerateLightMapUV, 0]
+	4: Name 'bIsSpatiallyLoaded' Comparison Index 420361 Display Index 420361 [Internal: bIsSpatiallyLoaded, 0]
+	5: Name 'bMergeMaterials' Comparison Index 426174 Display Index 426174 [Internal: bMergeMaterials, 0]
+	6: Name 'bMetallicMap' Comparison Index 425929 Display Index 425929 [Internal: bMetallicMap, 0]
+	7: Name 'BoolProperty' Comparison Index 8 Display Index 8 [Internal: BoolProperty, 0]
+	8: Name 'bRoughnessMap' Comparison Index 425926 Display Index 425926 [Internal: bRoughnessMap, 0]
+	9: Name 'bSpecularMap' Comparison Index 425920 Display Index 425920 [Internal: bSpecularMap, 0]
+	10: Name 'ByteProperty' Comparison Index 2 Display Index 2 [Internal: ByteProperty, 0]
+	11: Name 'DoubleProperty' Comparison Index 23 Display Index 23 [Internal: DoubleProperty, 0]
+	12: Name 'EHLODLayerType' Comparison Index 143749 Display Index 143749 [Internal: EHLODLayerType, 0]
+	13: Name 'EHLODLayerType::MeshMerge' Comparison Index 388300 Display Index 388300 [Internal: EHLODLayerType::MeshMerge, 0]
+	14: Name 'EMeshLODSelectionType' Comparison Index 123671 Display Index 123671 [Internal: EMeshLODSelectionType, 0]
+	15: Name 'EMeshLODSelectionType::LowestDetailLOD' Comparison Index 379761 Display Index 379761 [Internal: EMeshLODSelectionType::LowestDetailLOD, 0]
+	16: Name 'EnumProperty' Comparison Index 93 Display Index 93 [Internal: EnumProperty, 0]
+	17: Name 'ETextureSizingType' Comparison Index 122609 Display Index 122609 [Internal: ETextureSizingType, 0]
+	18: Name 'HLODBuilderClass' Comparison Index 471714 Display Index 471714 [Internal: HLODBuilderClass, 0]
+	19: Name 'HLODBuilderSettings' Comparison Index 143606 Display Index 143606 [Internal: HLODBuilderSettings, 0]
+	20: Name 'HLODMaterial' Comparison Index 471692 Display Index 471692 [Internal: HLODMaterial, 0]
+	21: Name 'LayerType' Comparison Index 421566 Display Index 421566 [Internal: LayerType, 0]
+	22: Name 'LODSelectionType' Comparison Index 426201 Display Index 426201 [Internal: LODSelectionType, 0]
+	23: Name 'MaterialProxySettings' Comparison Index 122605 Display Index 122605 [Internal: MaterialProxySettings, 0]
+	24: Name 'MaterialSettings' Comparison Index 425988 Display Index 425988 [Internal: MaterialSettings, 0]
+	25: Name 'MeshMergeSettings' Comparison Index 471699 Display Index 471699 [Internal: MeshMergeSettings, 0]
+	26: Name 'MeshMergingSettings' Comparison Index 123667 Display Index 123667 [Internal: MeshMergingSettings, 0]
+	27: Name 'MeshMinDrawDistance' Comparison Index 425970 Display Index 425970 [Internal: MeshMinDrawDistance, 0]
+	28: Name 'None' Comparison Index 0 Display Index 0 [Internal: None, 0]
+	29: Name 'ObjectProperty' Comparison Index 14 Display Index 14 [Internal: ObjectProperty, 0]
+	30: Name 'PackageLocalizationNamespace' Comparison Index 6871 Display Index 6871 [Internal: PackageLocalizationNamespace, 0]
+	31: Name 'StructProperty' Comparison Index 29 Display Index 29 [Internal: StructProperty, 0]
+	32: Name 'TextureSizingType' Comparison Index 425985 Display Index 425985 [Internal: TextureSizingType, 0]
+	33: Name 'TextureSizingType_AutomaticFromMeshDrawDistance' Comparison Index 377475 Display Index 377475 [Internal: TextureSizingType_AutomaticFromMeshDrawDistance, 0]
+	34: Name '/Engine/EngineMaterials/FlattenMaterial_VT' Comparison Index 478271 Display Index 478271 [Internal: /Engine/EngineMaterials/FlattenMaterial_VT, 0]
+	35: Name '/Game/Ofpa/L_OfpaMap57_HLODLayer_Merged' Comparison Index 943888 Display Index 943888 [Internal: /Game/Ofpa/L_OfpaMap57_HLODLayer_Merged, 0]
+	36: Name '/Script/CoreUObject' Comparison Index 6236 Display Index 6236 [Internal: /Script/CoreUObject, 0]
+	37: Name '/Script/WorldPartitionHLODUtilities' Comparison Index 284943 Display Index 284943 [Internal: /Script/WorldPartitionHLODUtilities, 0]
+	38: Name 'Class' Comparison Index 223 Display Index 223 [Internal: Class, 0]
+	39: Name 'FlattenMaterial_VT' Comparison Index 478268 Display Index 478268 [Internal: FlattenMaterial_VT, 0]
+	40: Name 'HLODBuilderMeshApproximate' Comparison Index 803070 Display Index 803070 [Internal: HLODBuilderMeshApproximate, 0]
+	41: Name 'HLODBuilderMeshMergeSettings' Comparison Index 803085 Display Index 803085 [Internal: HLODBuilderMeshMergeSettings, 0]
+	42: Name 'HLODLayer' Comparison Index 143744 Display Index 143744 [Internal: HLODLayer, 0]
+	43: Name 'L_OfpaMap57_HLODLayer_Merged' Comparison Index 943899 Display Index 943899 [Internal: L_OfpaMap57_HLODLayer_Merged, 0]
+	44: Name 'Material' Comparison Index 33282 Display Index 33282 [Internal: Material, 0]
+	45: Name 'Package' Comparison Index 316 Display Index 316 [Internal: Package, 0]
+--------------------------------------------
+Import Map
+==========
+	*************************
+	Import 0: 'HLODLayer'
+		       Outer: '/Script/Engine' (-6)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 1: 'HLODBuilderMeshApproximate'
+		       Outer: '/Script/WorldPartitionHLODUtilities' (-7)
+		     Package: '/Script/WorldPartitionHLODUtilities'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 2: 'HLODBuilderMeshMergeSettings'
+		       Outer: '/Script/WorldPartitionHLODUtilities' (-7)
+		     Package: '/Script/WorldPartitionHLODUtilities'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 3: 'FlattenMaterial_VT'
+		       Outer: '/Engine/EngineMaterials/FlattenMaterial_VT' (-5)
+		     Package: '/Engine/EngineMaterials/FlattenMaterial_VT'
+		       Class: 'Material'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) Material /Engine/EngineMaterials/FlattenMaterial_VT.FlattenMaterial_VT
+	*************************
+	Import 4: '/Engine/EngineMaterials/FlattenMaterial_VT'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 5: '/Script/Engine'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 6: '/Script/WorldPartitionHLODUtilities'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+--------------------------------------------
+	Packages referenced by /Temp/Ofpa/L_OfpaMap57_HLODLayer_Merged:
+		0) /Script/Engine
+		1) /Script/CoreUObject
+		2) /Script/WorldPartitionHLODUtilities
+		3) /Engine/EngineMaterials/FlattenMaterial_VT
+--------------------------------------------
+Export Map
+==========
+	*************************
+	Export 0: 'HLODBuilderMeshMergeSettings_1'
+		         Class: 'HLODBuilderMeshMergeSettings' (-3)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Ofpa/L_OfpaMap57_HLODLayer_Merged.L_OfpaMap57_HLODLayer_Merged' (2)
+		   ObjectFlags: 0x00000003
+		          Size: 490
+		      Offset: 2400
+		       Object: VALID
+		    HashNext: -1
+		   bNotForClient: 0
+		   bNotForServer: 0
+		  DependsMap:
+			0) Material /Engine/EngineMaterials/FlattenMaterial_VT.FlattenMaterial_VT (-4)
+		  All Depends:
+			0) Material /Engine/EngineMaterials/FlattenMaterial_VT.FlattenMaterial_VT (0)
+	*************************
+	Export 1: 'L_OfpaMap57_HLODLayer_Merged'
+		         Class: 'HLODLayer' (-1)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '' (0)
+		   ObjectFlags: 0x0000000B
+		          Size: 165
+		      Offset: 2890
+		       Object: VALID
+		    HashNext: -1
+		   bNotForClient: 0
+		   bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+--------------------------------------------
+Gatherable Text Data Map
+==========
+Number of Text Data Entries: 0
+--------------------------------------------
+Thumbnail Data
+==========
+--------------------------------------------
+Lazy Pointer Data
+===============
+--------------------------------------------
+Asset Registry Size:         94
+Asset Registry Data
+==========
+Number of assets with Asset Registry data: 1
+		0) /Script/Engine.HLODLayer'/Temp/Ofpa/L_OfpaMap57_HLODLayer_Merged.L_OfpaMap57_HLODLayer_Merged' (0 Tags)
+--------------------------------------------
+Serialize calls for exports
+===========================
+Total number of Serialize calls: 0
