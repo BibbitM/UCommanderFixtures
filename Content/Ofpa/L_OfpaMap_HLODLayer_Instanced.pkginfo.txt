@@ -1,0 +1,162 @@
+﻿********************************************
+Package '/Temp/Ofpa/L_OfpaMap_HLODLayer_Instanced' Summary
+--------------------------------------------
+	         Filename: E:/GitHub/Bibbit/UCommanderFixtures/Content/Ofpa/L_OfpaMap_HLODLayer_Instanced.uasset
+	     File Version: 1018
+	   Engine Version: 5.8.3-58210709+++UE5+Release-5.8
+	   Compat Version: 5.8.0-55116800+++UE5+Release-5.8
+	     PackageFlags: 0
+	        NameCount: 18
+	       NameOffset: 418
+	      ImportCount: 6
+	     ImportOffset: 985
+	      ExportCount: 2
+	     ExportOffset: 1225
+	Compression Flags: 0
+	       Total Size: 1797
+	  Custom Versions:
+		Key=601d1886-ac64-4f84-aa16-d3de0deac7d6 Version = 268 Friendly Name = FortniteMain
+		Key=e4b068ed-f494-42e9-a231-da0b2e46bb41 Version = 40 Friendly Name = Dev-Editor
+
+	        SavedHash: 4abe5c0618e0f2fcce9d6b2d87823b5a0b6d82c1
+	   PersistentGuid: 4410B2CC4B4D5470ED18C887D2221BED
+	      Generations:
+			0) ExportCount=2, NameCount=18 
+--------------------------------------------
+Name Map
+========
+	0: Name 'DoubleProperty' Comparison Index 23 Display Index 23 [Internal: DoubleProperty, 0]
+	1: Name 'HLODBuilderSettings' Comparison Index 149867 Display Index 149867 [Internal: HLODBuilderSettings, 0]
+	2: Name 'LoadingRange' Comparison Index 461567 Display Index 461567 [Internal: LoadingRange, 0]
+	3: Name 'None' Comparison Index 0 Display Index 0 [Internal: None, 0]
+	4: Name 'ObjectProperty' Comparison Index 14 Display Index 14 [Internal: ObjectProperty, 0]
+	5: Name 'PackageLocalizationNamespace' Comparison Index 7214 Display Index 7214 [Internal: PackageLocalizationNamespace, 0]
+	6: Name 'ParentLayer' Comparison Index 505179 Display Index 505179 [Internal: ParentLayer, 0]
+	7: Name '/Game/Ofpa/L_OfpaMap_HLODLayer_Instanced' Comparison Index 1045109 Display Index 1045109 [Internal: /Game/Ofpa/L_OfpaMap_HLODLayer_Instanced, 0]
+	8: Name '/Game/Ofpa/L_OfpaMap_HLODLayer_Merged' Comparison Index 1045115 Display Index 1045115 [Internal: /Game/Ofpa/L_OfpaMap_HLODLayer_Merged, 0]
+	9: Name '/Script/CoreUObject' Comparison Index 6527 Display Index 6527 [Internal: /Script/CoreUObject, 0]
+	10: Name '/Script/Engine' Comparison Index 7219 Display Index 7219 [Internal: /Script/Engine, 0]
+	11: Name '/Script/WorldPartitionHLODUtilities' Comparison Index 308252 Display Index 308252 [Internal: /Script/WorldPartitionHLODUtilities, 0]
+	12: Name 'Class' Comparison Index 239 Display Index 239 [Internal: Class, 0]
+	13: Name 'HLODBuilderInstancingSettings' Comparison Index 907318 Display Index 907318 [Internal: HLODBuilderInstancingSettings, 0]
+	14: Name 'HLODLayer' Comparison Index 150005 Display Index 150005 [Internal: HLODLayer, 0]
+	15: Name 'L_OfpaMap_HLODLayer_Instanced' Comparison Index 1045121 Display Index 1045121 [Internal: L_OfpaMap_HLODLayer_Instanced, 0]
+	16: Name 'L_OfpaMap_HLODLayer_Merged' Comparison Index 1045126 Display Index 1045126 [Internal: L_OfpaMap_HLODLayer_Merged, 0]
+	17: Name 'Package' Comparison Index 332 Display Index 332 [Internal: Package, 0]
+--------------------------------------------
+Import Map
+==========
+	*************************
+	Import 0: 'HLODLayer'
+		       Outer: '/Script/Engine' (-5)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 1: 'HLODBuilderInstancingSettings'
+		       Outer: '/Script/WorldPartitionHLODUtilities' (-6)
+		     Package: '/Script/WorldPartitionHLODUtilities'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 2: 'L_OfpaMap_HLODLayer_Merged'
+		       Outer: '/Game/Ofpa/L_OfpaMap_HLODLayer_Merged' (-4)
+		     Package: '/Game/Ofpa/L_OfpaMap_HLODLayer_Merged'
+		       Class: 'HLODLayer'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) HLODLayer /Game/Ofpa/L_OfpaMap_HLODLayer_Merged.L_OfpaMap_HLODLayer_Merged
+	*************************
+	Import 3: '/Game/Ofpa/L_OfpaMap_HLODLayer_Merged'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 4: '/Script/Engine'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 5: '/Script/WorldPartitionHLODUtilities'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+--------------------------------------------
+	Packages referenced by /Temp/Ofpa/L_OfpaMap_HLODLayer_Instanced:
+		0) /Script/Engine
+		1) /Script/CoreUObject
+		2) /Script/WorldPartitionHLODUtilities
+		3) /Game/Ofpa/L_OfpaMap_HLODLayer_Merged
+--------------------------------------------
+Export Map
+==========
+	*************************
+	Export 0: 'HLODBuilderInstancingSettings_0'
+		         Class: 'HLODBuilderInstancingSettings' (-2)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Ofpa/L_OfpaMap_HLODLayer_Instanced.L_OfpaMap_HLODLayer_Instanced' (2)
+		   ObjectFlags: 0x00000003
+		    Total Size: 13
+		        Offset: 1628
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 1: 'L_OfpaMap_HLODLayer_Instanced'
+		         Class: 'HLODLayer' (-1)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '' (0)
+		   ObjectFlags: 0x0000000B
+		    Total Size: 104
+		        Offset: 1641
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+--------------------------------------------
+Gatherable Text Data Map
+==========
+Number of Text Data Entries: 0
+--------------------------------------------
+Thumbnail Data
+==========
+--------------------------------------------
+Lazy Pointer Data
+===============
+--------------------------------------------
+Asset Registry Size:         95
+Asset Registry Data
+==========
+Number of assets with Asset Registry data: 1
+		0) /Script/Engine.HLODLayer'/Temp/Ofpa/L_OfpaMap_HLODLayer_Instanced.L_OfpaMap_HLODLayer_Instanced' (0 Tags)
+--------------------------------------------
+Serialize calls for exports
+===========================
+Total number of Serialize calls: 0
