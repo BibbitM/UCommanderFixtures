@@ -1,0 +1,624 @@
+﻿********************************************
+Package '/Temp/Summary/L_SummaryLevel' Summary
+--------------------------------------------
+	         Filename: E:/GitHub/Bibbit/UCommanderFixtures/Content/Summary/L_SummaryLevel.umap
+	     File Version: 1018
+	   Engine Version: 5.8.3-58210709+++UE5+Release-5.8
+	   Compat Version: 5.8.0-55116800+++UE5+Release-5.8
+	     PackageFlags: 20000
+	        NameCount: 87
+	       NameOffset: 626
+	      ImportCount: 25
+	     ImportOffset: 2920
+	      ExportCount: 15
+	     ExportOffset: 3920
+	Compression Flags: 0
+	       Total Size: 12974
+	  Custom Versions:
+		Key=12f88b9f-8875-4afc-a67c-d90c383abd29 Version = 49 Friendly Name = Dev-Rendering
+		Key=1ed048f4-2f2e-4c68-89d0-53a4f18f102d Version = 1 Friendly Name = WorldSettingVer
+		Key=29e575dd-e0a3-4627-9d10-d276232cdcea Version = 17 Friendly Name = Dev-AnimPhys
+		Key=59da5d52-1232-4948-b878-597870b8e98b Version = 9 Friendly Name = UE5-SpecialProject
+		Key=5b4c06b7-2463-4af8-805b-bf70cdf5d0dd Version = 15 Friendly Name = FortniteSeason
+		Key=601d1886-ac64-4f84-aa16-d3de0deac7d6 Version = 268 Friendly Name = FortniteMain
+		Key=697dd581-e64f-41ab-aa4a-51ecbeb7b628 Version = 123 Friendly Name = UE5-Main
+		Key=9c54d522-a826-4fbe-9421-074661b482d0 Version = 44 Friendly Name = Release
+		Key=9dffbcd6-494f-0158-e221-12823c92a888 Version = 11 Friendly Name = Dev-Enterprise
+		Key=cffc743f-43b0-4480-9391-14df171d2073 Version = 37 Friendly Name = Dev-Framework
+		Key=d89b5e42-24bd-4d46-8412-aca8df641779 Version = 68 Friendly Name = UE5-Release
+		Key=e4b068ed-f494-42e9-a231-da0b2e46bb41 Version = 40 Friendly Name = Dev-Editor
+		Key=e7086368-6b23-4c58-8439-1b7016265e91 Version = 20 Friendly Name = FortniteRelease
+
+	        SavedHash: 975e0553daf50270a201d36ac9e92617334530ef
+	   PersistentGuid: D7DE5EE84B6AED6758E827BBBA0B4F90
+	      Generations:
+			0) ExportCount=15, NameCount=87 
+--------------------------------------------
+Name Map
+========
+	0: Name '/Engine/EditorResources/LightIcons/S_LightError' Comparison Index 932306 Display Index 932306 [Internal: /Engine/EditorResources/LightIcons/S_LightError, 0]
+	1: Name '/Script/CoreUObject' Comparison Index 6527 Display Index 6527 [Internal: /Script/CoreUObject, 0]
+	2: Name '/Script/Engine' Comparison Index 7219 Display Index 7219 [Internal: /Script/Engine, 0]
+	3: Name '/Script/NavigationSystem' Comparison Index 50659 Display Index 50659 [Internal: /Script/NavigationSystem, 0]
+	4: Name 'ActorGuid' Comparison Index 270737 Display Index 270737 [Internal: ActorGuid, 0]
+	5: Name 'ActorLabel' Comparison Index 308334 Display Index 308334 [Internal: ActorLabel, 0]
+	6: Name 'ArrayProperty' Comparison Index 26 Display Index 26 [Internal: ArrayProperty, 0]
+	7: Name 'bAutoSpawnMissingNavData' Comparison Index 472809 Display Index 472809 [Internal: bAutoSpawnMissingNavData, 0]
+	8: Name 'bHidden' Comparison Index 442063 Display Index 442063 [Internal: bHidden, 0]
+	9: Name 'BlueprintCreatedComponents' Comparison Index 451620 Display Index 451620 [Internal: BlueprintCreatedComponents, 0]
+	10: Name 'bNetAddressable' Comparison Index 298915 Display Index 298915 [Internal: bNetAddressable, 0]
+	11: Name 'bNotForClientOrServer' Comparison Index 472992 Display Index 472992 [Internal: bNotForClientOrServer, 0]
+	12: Name 'BookmarkArray' Comparison Index 505623 Display Index 505623 [Internal: BookmarkArray, 0]
+	13: Name 'BoolProperty' Comparison Index 8 Display Index 8 [Internal: BoolProperty, 0]
+	14: Name 'Brush' Comparison Index 57924 Display Index 57924 [Internal: Brush, 0]
+	15: Name 'BrushComponent' Comparison Index 119735 Display Index 119735 [Internal: BrushComponent, 0]
+	16: Name 'ByteProperty' Comparison Index 2 Display Index 2 [Internal: ByteProperty, 0]
+	17: Name 'CamOrthoZoom' Comparison Index 452265 Display Index 452265 [Internal: CamOrthoZoom, 0]
+	18: Name 'CamPosition' Comparison Index 452271 Display Index 452271 [Internal: CamPosition, 0]
+	19: Name 'CamRotation' Comparison Index 452268 Display Index 452268 [Internal: CamRotation, 0]
+	20: Name 'CamUpdated' Comparison Index 452263 Display Index 452263 [Internal: CamUpdated, 0]
+	21: Name 'CreationMethod' Comparison Index 298784 Display Index 298784 [Internal: CreationMethod, 0]
+	22: Name 'EComponentCreationMethod' Comparison Index 119433 Display Index 119433 [Internal: EComponentCreationMethod, 0]
+	23: Name 'EComponentCreationMethod::SimpleConstructionScript' Comparison Index 298792 Display Index 298792 [Internal: EComponentCreationMethod::SimpleConstructionScript, 0]
+	24: Name 'EditorViews' Comparison Index 207409 Display Index 207409 [Internal: EditorViews, 0]
+	25: Name 'ELightUnits' Comparison Index 141557 Display Index 141557 [Internal: ELightUnits, 0]
+	26: Name 'ELightUnits::Candelas' Comparison Index 412562 Display Index 412562 [Internal: ELightUnits::Candelas, 0]
+	27: Name 'EnumProperty' Comparison Index 93 Display Index 93 [Internal: EnumProperty, 0]
+	28: Name 'ESpawnActorCollisionHandlingMethod' Comparison Index 124158 Display Index 124158 [Internal: ESpawnActorCollisionHandlingMethod, 0]
+	29: Name 'ESpawnActorCollisionHandlingMethod::AlwaysSpawn' Comparison Index 403768 Display Index 403768 [Internal: ESpawnActorCollisionHandlingMethod::AlwaysSpawn, 0]
+	30: Name 'FloatProperty' Comparison Index 11 Display Index 11 [Internal: FloatProperty, 0]
+	31: Name 'Guid' Comparison Index 8842 Display Index 8842 [Internal: Guid, 0]
+	32: Name 'Intensity' Comparison Index 255447 Display Index 255447 [Internal: Intensity, 0]
+	33: Name 'IntensityUnits' Comparison Index 496611 Display Index 496611 [Internal: IntensityUnits, 0]
+	34: Name 'IntProperty' Comparison Index 5 Display Index 5 [Internal: IntProperty, 0]
+	35: Name 'LevelBuildDataId' Comparison Index 490529 Display Index 490529 [Internal: LevelBuildDataId, 0]
+	36: Name 'LevelViewportInfo' Comparison Index 149147 Display Index 149147 [Internal: LevelViewportInfo, 0]
+	37: Name 'LightComponent' Comparison Index 120705 Display Index 120705 [Internal: LightComponent, 0]
+	38: Name 'LightGuid' Comparison Index 456507 Display Index 456507 [Internal: LightGuid, 0]
+	39: Name 'Model' Comparison Index 129809 Display Index 129809 [Internal: Model, 0]
+	40: Name 'NavigationSystemClass' Comparison Index 472805 Display Index 472805 [Internal: NavigationSystemClass, 0]
+	41: Name 'NavigationSystemConfig' Comparison Index 113197 Display Index 113197 [Internal: NavigationSystemConfig, 0]
+	42: Name 'NavigationSystemV1' Comparison Index 51004 Display Index 51004 [Internal: NavigationSystemV1, 0]
+	43: Name 'None' Comparison Index 0 Display Index 0 [Internal: None, 0]
+	44: Name 'ObjectProperty' Comparison Index 14 Display Index 14 [Internal: ObjectProperty, 0]
+	45: Name 'OriginalLightGuid' Comparison Index 456509 Display Index 456509 [Internal: OriginalLightGuid, 0]
+	46: Name 'PackageLocalizationNamespace' Comparison Index 7214 Display Index 7214 [Internal: PackageLocalizationNamespace, 0]
+	47: Name 'PointLightComponent' Comparison Index 120921 Display Index 120921 [Internal: PointLightComponent, 0]
+	48: Name 'PreviewShadowMapChannel' Comparison Index 456503 Display Index 456503 [Internal: PreviewShadowMapChannel, 0]
+	49: Name 'RelativeLocation' Comparison Index 53611 Display Index 53611 [Internal: RelativeLocation, 0]
+	50: Name 'RootComponent' Comparison Index 451694 Display Index 451694 [Internal: RootComponent, 0]
+	51: Name 'Rotator' Comparison Index 142 Display Index 142 [Internal: Rotator, 0]
+	52: Name 'S_LightError' Comparison Index 950685 Display Index 950685 [Internal: S_LightError, 0]
+	53: Name 'SoftClassPath' Comparison Index 9264 Display Index 9264 [Internal: SoftClassPath, 0]
+	54: Name 'SpawnCollisionHandlingMethod' Comparison Index 451719 Display Index 451719 [Internal: SpawnCollisionHandlingMethod, 0]
+	55: Name 'StaticMesh' Comparison Index 777 Display Index 777 [Internal: StaticMesh, 0]
+	56: Name 'StrProperty' Comparison Index 38 Display Index 38 [Internal: StrProperty, 0]
+	57: Name 'StructProperty' Comparison Index 29 Display Index 29 [Internal: StructProperty, 0]
+	58: Name 'ThumbnailInfo' Comparison Index 123326 Display Index 123326 [Internal: ThumbnailInfo, 0]
+	59: Name 'UCSSerializationIndex' Comparison Index 298918 Display Index 298918 [Internal: UCSSerializationIndex, 0]
+	60: Name 'Vector' Comparison Index 140 Display Index 140 [Internal: Vector, 0]
+	61: Name 'WorldSettings' Comparison Index 151306 Display Index 151306 [Internal: WorldSettings, 0]
+	62: Name '/Engine/EngineMaterials/WorldGridMaterial' Comparison Index 515926 Display Index 515926 [Internal: /Engine/EngineMaterials/WorldGridMaterial, 0]
+	63: Name '/Game/Summary/BP_SummaryActor' Comparison Index 932018 Display Index 932018 [Internal: /Game/Summary/BP_SummaryActor, 0]
+	64: Name '/Game/Summary/L_SummaryLevel' Comparison Index 522361 Display Index 522361 [Internal: /Game/Summary/L_SummaryLevel, 0]
+	65: Name '/Script/UnrealEd' Comparison Index 7226 Display Index 7226 [Internal: /Script/UnrealEd, 0]
+	66: Name 'BlueprintGeneratedClass' Comparison Index 7234 Display Index 7234 [Internal: BlueprintGeneratedClass, 0]
+	67: Name 'BP_SummaryActor_C' Comparison Index 932026 Display Index 932026 [Internal: BP_SummaryActor_C, 0]
+	68: Name 'BrushComponent0' Comparison Index 516203 Display Index 516203 [Internal: BrushComponent0, 0]
+	69: Name 'Class' Comparison Index 239 Display Index 239 [Internal: Class, 0]
+	70: Name 'Default__Brush' Comparison Index 118259 Display Index 118259 [Internal: Default__Brush, 0]
+	71: Name 'Default__PointLight' Comparison Index 111903 Display Index 111903 [Internal: Default__PointLight, 0]
+	72: Name 'L_SummaryLevel' Comparison Index 522358 Display Index 522358 [Internal: L_SummaryLevel, 0]
+	73: Name 'Level' Comparison Index 8908 Display Index 8908 [Internal: Level, 0]
+	74: Name 'LightComponent0' Comparison Index 516269 Display Index 516269 [Internal: LightComponent0, 0]
+	75: Name 'Material' Comparison Index 34508 Display Index 34508 [Internal: Material, 0]
+	76: Name 'NavigationSystemModuleConfig' Comparison Index 51017 Display Index 51017 [Internal: NavigationSystemModuleConfig, 0]
+	77: Name 'Package' Comparison Index 332 Display Index 332 [Internal: Package, 0]
+	78: Name 'PersistentLevel' Comparison Index 352 Display Index 352 [Internal: PersistentLevel, 0]
+	79: Name 'PointLight' Comparison Index 111901 Display Index 111901 [Internal: PointLight, 0]
+	80: Name 'Polys' Comparison Index 111909 Display Index 111909 [Internal: Polys, 0]
+	81: Name 'SceneComponent' Comparison Index 121203 Display Index 121203 [Internal: SceneComponent, 0]
+	82: Name 'StaticMesh_GEN_VARIABLE' Comparison Index 1358146 Display Index 1358146 [Internal: StaticMesh_GEN_VARIABLE, 0]
+	83: Name 'StaticMeshComponent' Comparison Index 121633 Display Index 121633 [Internal: StaticMeshComponent, 0]
+	84: Name 'World' Comparison Index 8906 Display Index 8906 [Internal: World, 0]
+	85: Name 'WorldGridMaterial' Comparison Index 515932 Display Index 515932 [Internal: WorldGridMaterial, 0]
+	86: Name 'WorldThumbnailInfo' Comparison Index 94069 Display Index 94069 [Internal: WorldThumbnailInfo, 0]
+--------------------------------------------
+Import Map
+==========
+	*************************
+	Import 0: 'BP_SummaryActor_C'
+		       Outer: '/Game/Summary/BP_SummaryActor' (-19)
+		     Package: '/Game/Summary/BP_SummaryActor'
+		       Class: 'BlueprintGeneratedClass'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 1: 'Default__Brush'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Brush'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 2: 'BrushComponent0'
+		       Outer: '/Script/Engine.Default__Brush' (-2)
+		     Package: '/Script/Engine'
+		       Class: 'BrushComponent'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 3: 'Brush'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 4: 'BrushComponent'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 5: 'Level'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 6: 'Model'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 7: 'PointLight'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 8: 'PointLightComponent'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 9: 'Polys'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 10: 'SceneComponent'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 11: 'StaticMeshComponent'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 12: 'World'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 13: 'WorldSettings'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 14: 'NavigationSystemModuleConfig'
+		       Outer: '/Script/NavigationSystem' (-21)
+		     Package: '/Script/NavigationSystem'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 15: 'WorldThumbnailInfo'
+		       Outer: '/Script/UnrealEd' (-22)
+		     Package: '/Script/UnrealEd'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 16: 'WorldGridMaterial'
+		       Outer: '/Engine/EngineMaterials/WorldGridMaterial' (-18)
+		     Package: '/Engine/EngineMaterials/WorldGridMaterial'
+		       Class: 'Material'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+	*************************
+	Import 17: '/Engine/EngineMaterials/WorldGridMaterial'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 18: '/Game/Summary/BP_SummaryActor'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 19: '/Script/Engine'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 20: '/Script/NavigationSystem'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 21: '/Script/UnrealEd'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 22: 'Default__PointLight'
+		       Outer: '/Script/Engine' (-20)
+		     Package: '/Script/Engine'
+		       Class: 'PointLight'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 23: 'LightComponent0'
+		       Outer: '/Script/Engine.Default__PointLight' (-23)
+		     Package: '/Script/Engine'
+		       Class: 'PointLightComponent'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 24: 'StaticMesh_GEN_VARIABLE'
+		       Outer: '/Game/Summary/BP_SummaryActor.BP_SummaryActor_C' (-1)
+		     Package: '/Game/Summary/BP_SummaryActor'
+		       Class: 'StaticMeshComponent'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) StaticMeshComponent /Game/Summary/BP_SummaryActorRenamed.BP_SummaryActorRenamed_C:StaticMesh_GEN_VARIABLE
+--------------------------------------------
+	Packages referenced by /Temp/Summary/L_SummaryLevel:
+		0) /Game/Summary/BP_SummaryActor
+		1) /Script/Engine
+		2) /Script/CoreUObject
+		3) /Script/NavigationSystem
+		4) /Script/UnrealEd
+		5) /Engine/EngineMaterials/WorldGridMaterial
+--------------------------------------------
+Export Map
+==========
+	*************************
+	Export 0: 'BP_SummaryActor_C_1'
+		         Class: 'BP_SummaryActor_C' (-1)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 230
+		        Offset: 7691
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 1: 'Brush_0'
+		         Class: 'Brush' (-4)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 324
+		        Offset: 7921
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 1
+		 bNotForServer: 1
+		  DependsMap:
+			0) Model /Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.Brush (5)
+			1) BrushComponent /Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.Brush_0.BrushComponent0 (3)
+		  All Depends:
+	*************************
+	Export 2: 'BrushComponent0'
+		         Class: 'BrushComponent' (-5)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.Brush_0' (2)
+		   ObjectFlags: 0x00040008
+		    Total Size: 46
+		        Offset: 8245
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 1
+		 bNotForServer: 1
+		  DependsMap:
+			0) BrushComponent /Script/Engine.Default__Brush:BrushComponent0 (-3)
+			1) Model /Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.Brush (5)
+		  All Depends:
+	*************************
+	Export 3: 'PersistentLevel'
+		         Class: 'Level' (-6)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel' (13)
+		   ObjectFlags: 0x00000008
+		    Total Size: 353
+		        Offset: 8291
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 4: 'Brush'
+		         Class: 'Model' (-7)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 167
+		        Offset: 8644
+		        Object: VALID
+		      HashNext: 1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+			0) Polys /Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.Polys_1 (11)
+		  All Depends:
+	*************************
+	Export 5: 'Model_0'
+		         Class: 'Model' (-7)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 167
+		        Offset: 8811
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 6: 'NavigationSystemModuleConfig_0'
+		         Class: 'NavigationSystemModuleConfig' (-15)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.WorldSettings' (14)
+		   ObjectFlags: 0x00000000
+		    Total Size: 91
+		        Offset: 8978
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 7: 'PointLight_1'
+		         Class: 'PointLight' (-8)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 209
+		        Offset: 9069
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 8: 'LightComponent0'
+		         Class: 'PointLightComponent' (-9)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.PointLight_1' (8)
+		   ObjectFlags: 0x00040008
+		    Total Size: 274
+		        Offset: 9278
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 9: 'Polys_0'
+		         Class: 'Polys' (-10)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 17
+		        Offset: 9552
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 10: 'Polys_1'
+		         Class: 'Polys' (-10)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 1073
+		        Offset: 9569
+		        Object: VALID
+		      HashNext: 9
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+			0) Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial (-17)
+		  All Depends:
+			0) Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial (0)
+	*************************
+	Export 11: 'StaticMesh'
+		         Class: 'StaticMeshComponent' (-12)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.BP_SummaryActor_C_1' (1)
+		   ObjectFlags: 0x00000000
+		    Total Size: 249
+		        Offset: 10642
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 12: 'L_SummaryLevel'
+		         Class: 'World' (-13)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '' (0)
+		   ObjectFlags: 0x0000000B
+		    Total Size: 1783
+		        Offset: 10891
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 13: 'WorldSettings'
+		         Class: 'WorldSettings' (-14)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel' (4)
+		   ObjectFlags: 0x00000008
+		    Total Size: 235
+		        Offset: 12674
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 14: 'WorldThumbnailInfo_0'
+		         Class: 'WorldThumbnailInfo' (-16)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Temp/Summary/L_SummaryLevel.L_SummaryLevel' (13)
+		   ObjectFlags: 0x00000008
+		    Total Size: 13
+		        Offset: 12909
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+		  All Depends:
+--------------------------------------------
+Gatherable Text Data Map
+==========
+Number of Text Data Entries: 0
+--------------------------------------------
+Thumbnail Data
+==========
+--------------------------------------------
+Lazy Pointer Data
+===============
+--------------------------------------------
+Asset Registry Size:       1934
+Asset Registry Data
+==========
+Number of assets with Asset Registry data: 1
+		0) /Script/Engine.World'/Temp/Summary/L_SummaryLevel.L_SummaryLevel' (6 Tags)
+			"PrimaryAssetType": "Map"
+			"PrimaryAssetName": "/Game/Summary/L_SummaryLevel"
+			"ActorsMetaData": "/Game/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.PointLight_1,/Script/Engine.PointLight,BAAAAIHVfWmrQU/m7FFKqii2t757AAAAtwZMW/hKYyRwv1uA3dD1zQ8AAACGGB1ghE9krN7TFqrWx+oNDAEAAEJem9hGTb0kqKwShHkXZN9EAAAAAAAAAAUAAABOb25lAAUAAABOb25lAA8AAAAvU2NyaXB0L0VuZ2luZQALAAAAUG9pbnRMaWdodACfJxNkh9imQrJhW98IO+tdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAQI9AAAAAAABAj0AAAAAAAECPQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAQI9AAAAAAABAj0AAAAAAAECPQAEAAAAAAAAAAAAAAAAAAAAAAAABCwAAAFBvaW50TGlnaHQAAAAFAAAATm9uZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==,None;/Game/Summary/L_SummaryLevel.L_SummaryLevel:PersistentLevel.BP_SummaryActor_C_1,/Script/Engine.Actor,BAAAAIHVfWmrQU/m7FFKqii2t757AAAAtwZMW/hKYyRwv1uA3dD1zQ8AAACGGB1ghE9krN7TFqrWx+oNDAEAAEJem9hGTb0kqKwShHkXZN9EAAAAAAAAAB4AAAAvR2FtZS9TdW1tYXJ5L0JQX1N1bW1hcnlBY3RvcgASAAAAQlBfU3VtbWFyeUFjdG9yX0MADwAAAC9TY3JpcHQvRW5naW5lAAYAAABBY3RvcgDXi2EpoigDR7OuC4yXgZ2tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAABeQAAAAAAAwGdAAAAAAACAYcAAAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABEAAAAEJQX1N1bW1hcnlBY3RvcgAAAAUAAABOb25lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,/Game/Summary/BP_SummaryActor.BP_SummaryActor_C"
+			"DateModified": "2026.11.08-23.58.32"
+			"LevelBoundsExtent": "V(0)"
+			"LevelBoundsLocation": "V(X=120.00, Y=190.00, Z=-140.00)"
+--------------------------------------------
+Serialize calls for exports
+===========================
+Total number of Serialize calls: 0

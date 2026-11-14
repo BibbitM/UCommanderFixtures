@@ -1,0 +1,182 @@
+﻿********************************************
+Package '/Temp/Summary/BP_SummaryActor' Summary
+--------------------------------------------
+	         Filename: E:/GitHub/Bibbit/UCommanderFixtures/Content/Summary/BP_SummaryActor.uasset
+	     File Version: 1018
+	   Engine Version: 5.8.3-58210709+++UE5+Release-5.8
+	   Compat Version: 5.8.0-55116800+++UE5+Release-5.8
+	     PackageFlags: 0
+	        NameCount: 17
+	       NameOffset: 407
+	      ImportCount: 6
+	     ImportOffset: 940
+	      ExportCount: 3
+	     ExportOffset: 1180
+	Compression Flags: 0
+	       Total Size: 2463
+	  Custom Versions:
+		Key=601d1886-ac64-4f84-aa16-d3de0deac7d6 Version = 268 Friendly Name = FortniteMain
+		Key=e4b068ed-f494-42e9-a231-da0b2e46bb41 Version = 40 Friendly Name = Dev-Editor
+
+	        SavedHash: ac3f79a6b3e8294a99c9542dca59b11243e71e55
+	   PersistentGuid: A94AED45410E907A85CDF38054394A1B
+	      Generations:
+			0) ExportCount=3, NameCount=17 
+--------------------------------------------
+Name Map
+========
+	0: Name 'None' Comparison Index 0 Display Index 0 [Internal: None, 0]
+	1: Name 'PackageLocalizationNamespace' Comparison Index 7214 Display Index 7214 [Internal: PackageLocalizationNamespace, 0]
+	2: Name '/Game/Summary/BP_SummaryActor' Comparison Index 932276 Display Index 932276 [Internal: /Game/Summary/BP_SummaryActor, 0]
+	3: Name '/Game/Summary/BP_SummaryActorRenamed' Comparison Index 932291 Display Index 932291 [Internal: /Game/Summary/BP_SummaryActorRenamed, 0]
+	4: Name '/Script/CoreUObject' Comparison Index 6527 Display Index 6527 [Internal: /Script/CoreUObject, 0]
+	5: Name '/Script/Engine' Comparison Index 7219 Display Index 7219 [Internal: /Script/Engine, 0]
+	6: Name 'Blueprint' Comparison Index 7232 Display Index 7232 [Internal: Blueprint, 0]
+	7: Name 'BlueprintGeneratedClass' Comparison Index 7234 Display Index 7234 [Internal: BlueprintGeneratedClass, 0]
+	8: Name 'BP_SummaryActor' Comparison Index 932281 Display Index 932281 [Internal: BP_SummaryActor, 0]
+	9: Name 'BP_SummaryActor_C' Comparison Index 932284 Display Index 932284 [Internal: BP_SummaryActor_C, 0]
+	10: Name 'BP_SummaryActorRenamed' Comparison Index 932401 Display Index 932401 [Internal: BP_SummaryActorRenamed, 0]
+	11: Name 'BP_SummaryActorRenamed_C' Comparison Index 932405 Display Index 932405 [Internal: BP_SummaryActorRenamed_C, 0]
+	12: Name 'Class' Comparison Index 239 Display Index 239 [Internal: Class, 0]
+	13: Name 'Default__BP_SummaryActor_C' Comparison Index 932287 Display Index 932287 [Internal: Default__BP_SummaryActor_C, 0]
+	14: Name 'Default__BP_SummaryActorRenamed_C' Comparison Index 1144852 Display Index 1144852 [Internal: Default__BP_SummaryActorRenamed_C, 0]
+	15: Name 'ObjectRedirector' Comparison Index 233 Display Index 233 [Internal: ObjectRedirector, 0]
+	16: Name 'Package' Comparison Index 332 Display Index 332 [Internal: Package, 0]
+--------------------------------------------
+Import Map
+==========
+	*************************
+	Import 0: 'BP_SummaryActorRenamed'
+		       Outer: '/Game/Summary/BP_SummaryActorRenamed' (-5)
+		     Package: '/Game/Summary/BP_SummaryActorRenamed'
+		       Class: 'Blueprint'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) Blueprint /Game/Summary/BP_SummaryActorRenamed.BP_SummaryActorRenamed
+	*************************
+	Import 1: 'BP_SummaryActorRenamed_C'
+		       Outer: '/Game/Summary/BP_SummaryActorRenamed' (-5)
+		     Package: '/Game/Summary/BP_SummaryActorRenamed'
+		       Class: 'BlueprintGeneratedClass'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) BlueprintGeneratedClass /Game/Summary/BP_SummaryActorRenamed.BP_SummaryActorRenamed_C
+	*************************
+	Import 2: 'Default__BP_SummaryActorRenamed_C'
+		       Outer: '/Game/Summary/BP_SummaryActorRenamed' (-5)
+		     Package: '/Game/Summary/BP_SummaryActorRenamed'
+		       Class: 'BP_SummaryActorRenamed_C'
+		ClassPackage: '/Game/Summary/BP_SummaryActorRenamed'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) BP_SummaryActorRenamed_C /Game/Summary/BP_SummaryActorRenamed.Default__BP_SummaryActorRenamed_C
+	*************************
+	Import 3: 'ObjectRedirector'
+		       Outer: '/Script/CoreUObject' (-6)
+		     Package: '/Script/CoreUObject'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 4: '/Game/Summary/BP_SummaryActorRenamed'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 5: '/Script/CoreUObject'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+--------------------------------------------
+	Packages referenced by /Temp/Summary/BP_SummaryActor:
+		0) /Game/Summary/BP_SummaryActorRenamed
+		1) /Script/Engine
+		2) /Script/CoreUObject
+--------------------------------------------
+Export Map
+==========
+	*************************
+	Export 0: 'BP_SummaryActor'
+		         Class: 'ObjectRedirector' (-4)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '' (0)
+		   ObjectFlags: 0x00000003
+		    Total Size: 17
+		        Offset: 2360
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 1
+		 bNotForServer: 1
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 1: 'BP_SummaryActor_C'
+		         Class: 'ObjectRedirector' (-4)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '' (0)
+		   ObjectFlags: 0x00000003
+		    Total Size: 17
+		        Offset: 2377
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 1
+		 bNotForServer: 1
+		  DependsMap:
+		  All Depends:
+	*************************
+	Export 2: 'Default__BP_SummaryActor_C'
+		         Class: 'ObjectRedirector' (-4)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '' (0)
+		   ObjectFlags: 0x00000003
+		    Total Size: 17
+		        Offset: 2394
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 1
+		 bNotForServer: 1
+		  DependsMap:
+		  All Depends:
+--------------------------------------------
+Gatherable Text Data Map
+==========
+Number of Text Data Entries: 0
+--------------------------------------------
+Thumbnail Data
+==========
+--------------------------------------------
+Lazy Pointer Data
+===============
+--------------------------------------------
+Asset Registry Size:        636
+Asset Registry Data
+==========
+Number of assets with Asset Registry data: 3
+		0) /Script/CoreUObject.ObjectRedirector'/Temp/Summary/BP_SummaryActor.BP_SummaryActor' (1 Tags)
+			"DestinationObject": "/Script/Engine.Blueprint'/Game/Summary/BP_SummaryActorRenamed.BP_SummaryActorRenamed'"
+		1) /Script/CoreUObject.ObjectRedirector'/Temp/Summary/BP_SummaryActor.BP_SummaryActor_C' (1 Tags)
+			"DestinationObject": "/Script/Engine.BlueprintGeneratedClass'/Game/Summary/BP_SummaryActorRenamed.BP_SummaryActorRenamed_C'"
+		2) /Script/CoreUObject.ObjectRedirector'/Temp/Summary/BP_SummaryActor.Default__BP_SummaryActor_C' (1 Tags)
+			"DestinationObject": "/Game/Summary/BP_SummaryActorRenamed.BP_SummaryActorRenamed_C'/Game/Summary/BP_SummaryActorRenamed.Default__BP_SummaryActorRenamed_C'"
+--------------------------------------------
+Serialize calls for exports
+===========================
+Total number of Serialize calls: 0
