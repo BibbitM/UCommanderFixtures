@@ -1,0 +1,142 @@
+﻿********************************************
+Package '/Temp/__ExternalActors__/OFPAFixture/WP_ActorFixture/1/0W/01JDENQ7PDO7AY5KBAY1D3' Summary
+--------------------------------------------
+	         Filename: E:/GitHub/SecondBibbit/UCommanderFixtures/Content/__ExternalActors__/OFPAFixture/WP_ActorFixture/1/0W/01JDENQ7PDO7AY5KBAY1D3.uasset
+	     File Version: 1018
+	   Engine Version: 5.8.3-58210709+++UE5+Release-5.8
+	   Compat Version: 5.8.0-55116800+++UE5+Release-5.8
+	     PackageFlags: 4040
+	        NameCount: 15
+	       NameOffset: 518
+	      ImportCount: 5
+	     ImportOffset: 904
+	      ExportCount: 1
+	     ExportOffset: 1104
+	Compression Flags: 0
+	       Total Size: 2268
+	  Custom Versions:
+		Key=59da5d52-1232-4948-b878-597870b8e98b Version = 9 Friendly Name = UE5-SpecialProject
+		Key=601d1886-ac64-4f84-aa16-d3de0deac7d6 Version = 268 Friendly Name = FortniteMain
+		Key=697dd581-e64f-41ab-aa4a-51ecbeb7b628 Version = 123 Friendly Name = UE5-Main
+		Key=d89b5e42-24bd-4d46-8412-aca8df641779 Version = 68 Friendly Name = UE5-Release
+		Key=e4b068ed-f494-42e9-a231-da0b2e46bb41 Version = 40 Friendly Name = Dev-Editor
+
+	        SavedHash: aabfde78c29ba90f7fa206737759fee7fc0ed7ee
+	   PersistentGuid: 0F8CB30844CB48CFFDDEB388DB99D2E0
+	      Generations:
+			0) ExportCount=1, NameCount=15 
+--------------------------------------------
+Name Map
+========
+	0: Name '/Script/CoreUObject' Comparison Index 6527 Display Index 6527 [Internal: /Script/CoreUObject, 0]
+	1: Name 'ActorGuid' Comparison Index 269959 Display Index 269959 [Internal: ActorGuid, 0]
+	2: Name 'Guid' Comparison Index 8842 Display Index 8842 [Internal: Guid, 0]
+	3: Name 'None' Comparison Index 0 Display Index 0 [Internal: None, 0]
+	4: Name 'PackageLocalizationNamespace' Comparison Index 7214 Display Index 7214 [Internal: PackageLocalizationNamespace, 0]
+	5: Name 'StructProperty' Comparison Index 29 Display Index 29 [Internal: StructProperty, 0]
+	6: Name '/Game/OFPAFixture/WP_ActorFixture' Comparison Index 517461 Display Index 517461 [Internal: /Game/OFPAFixture/WP_ActorFixture, 0]
+	7: Name '/Script/Engine' Comparison Index 7219 Display Index 7219 [Internal: /Script/Engine, 0]
+	8: Name 'Class' Comparison Index 239 Display Index 239 [Internal: Class, 0]
+	9: Name 'Level' Comparison Index 8908 Display Index 8908 [Internal: Level, 0]
+	10: Name 'Package' Comparison Index 332 Display Index 332 [Internal: Package, 0]
+	11: Name 'PersistentLevel' Comparison Index 352 Display Index 352 [Internal: PersistentLevel, 0]
+	12: Name 'World' Comparison Index 8906 Display Index 8906 [Internal: World, 0]
+	13: Name 'WorldPartitionMiniMap' Comparison Index 150668 Display Index 150668 [Internal: WorldPartitionMiniMap, 0]
+	14: Name 'WP_ActorFixture' Comparison Index 517458 Display Index 517458 [Internal: WP_ActorFixture, 0]
+--------------------------------------------
+Import Map
+==========
+	*************************
+	Import 0: 'WorldPartitionMiniMap'
+		       Outer: '/Script/Engine' (-4)
+		     Package: '/Script/Engine'
+		       Class: 'Class'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 1: 'PersistentLevel'
+		       Outer: '/Game/OFPAFixture/WP_ActorFixture.WP_ActorFixture' (-5)
+		     Package: '/Game/OFPAFixture/WP_ActorFixture'
+		       Class: 'Level'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) Level /Temp/__ExternalActors__/OFPAFixture/WP_ActorFixture/1/0W/01JDENQ7PDO7AY5KBAY1D3_InstanceOf_/Game/OFPAFixture/WP_ActorFixture.WP_ActorFixture:PersistentLevel
+	*************************
+	Import 2: '/Game/OFPAFixture/WP_ActorFixture'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 3: '/Script/Engine'
+		       Outer: 'None' (0)
+		     Package: 'None'
+		       Class: 'Package'
+		ClassPackage: '/Script/CoreUObject'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+	*************************
+	Import 4: 'WP_ActorFixture'
+		       Outer: '/Game/OFPAFixture/WP_ActorFixture' (-3)
+		     Package: '/Game/OFPAFixture/WP_ActorFixture'
+		       Class: 'World'
+		ClassPackage: '/Script/Engine'
+		     XObject: NULL
+		 SourceIndex: -1
+		  All Depends:
+			0) World /Temp/__ExternalActors__/OFPAFixture/WP_ActorFixture/1/0W/01JDENQ7PDO7AY5KBAY1D3_InstanceOf_/Game/OFPAFixture/WP_ActorFixture.WP_ActorFixture
+--------------------------------------------
+	Packages referenced by /Temp/__ExternalActors__/OFPAFixture/WP_ActorFixture/1/0W/01JDENQ7PDO7AY5KBAY1D3:
+		0) /Script/Engine
+		1) /Script/CoreUObject
+		2) /Game/OFPAFixture/WP_ActorFixture
+--------------------------------------------
+Export Map
+==========
+	*************************
+	Export 0: 'WorldPartitionMiniMap_0'
+		         Class: 'WorldPartitionMiniMap' (-1)
+		        Parent: '' (0)
+		      Template: '' (0)
+		         Outer: '/Game/OFPAFixture/WP_ActorFixture.WP_ActorFixture:PersistentLevel' (-2)
+		   ObjectFlags: 0x00000008
+		    Total Size: 82
+		        Offset: 2134
+		        Object: VALID
+		      HashNext: -1
+		 bNotForClient: 0
+		 bNotForServer: 0
+		  DependsMap:
+			0) Level /Game/OFPAFixture/WP_ActorFixture.WP_ActorFixture:PersistentLevel (-2)
+		  All Depends:
+			0) Level /Temp/__ExternalActors__/OFPAFixture/WP_ActorFixture/1/0W/01JDENQ7PDO7AY5KBAY1D3_InstanceOf_/Game/OFPAFixture/WP_ActorFixture.WP_ActorFixture:PersistentLevel (4)
+--------------------------------------------
+Gatherable Text Data Map
+==========
+Number of Text Data Entries: 0
+--------------------------------------------
+Thumbnail Data
+==========
+--------------------------------------------
+Lazy Pointer Data
+===============
+--------------------------------------------
+Asset Registry Size:        902
+Asset Registry Data
+==========
+Number of assets with Asset Registry data: 1
+		0) /Script/Engine.WorldPartitionMiniMap'/Game/OFPAFixture/WP_ActorFixture.WP_ActorFixture:PersistentLevel.WorldPartitionMiniMap_0' (2 Tags)
+			"ActorMetaDataClass": "/Script/Engine.WorldPartitionMiniMap"
+			"ActorMetaData": "BAAAAIHVfWmrQU/m7FFKqii2t757AAAAtwZMW/hKYyRwv1uA3dD1zQ8AAACGGB1ghE9krN7TFqrWx+oNDAEAAEJem9hGTb0kqKwShHkXZN9EAAAAAAAAAAUAAABOb25lAAUAAABOb25lAA8AAAAvU2NyaXB0L0VuZ2luZQAWAAAAV29ybGRQYXJ0aXRpb25NaW5pTWFwALMeCiG1y+hNrAkKtLflrgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAABOb25lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+--------------------------------------------
+Serialize calls for exports
+===========================
+Total number of Serialize calls: 0
