@@ -42,3 +42,13 @@ Run consumer tests in UCommander when validating fixture changes against the rea
 Follow the history's short, imperative commit subjects, such as `Add renamed summary actor fixture`. Keep each change focused on a fixture or tooling concern.
 
 In pull requests, describe the test case enabled, changed assets, engine version, and validation performed. Link related UCommander issues and include editor screenshots when they clarify fixture behavior. Include required external actor packages and updated evidence. Keep binary assets under Git LFS.
+
+## Codex Commit Attribution
+
+Preserve the configured Git author identity. For each commit Codex creates with its own contribution, include the following trailer exactly once.
+
+```text
+Co-authored-by: Codex <noreply@openai.com>
+```
+
+Skip the trailer for commits created solely by the owner or another agent. Do not rewrite existing commits to add attribution.
