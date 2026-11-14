@@ -1,14 +1,8 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
+## Project Overview
 
-This Unreal Engine project provides real package and container fixtures for UCommander. It has no C++ source modules or local automated test suite.
-
-- `UCommanderFixtures.uproject` identifies the project and associated engine.
-- `Content/Summary/` contains package-summary assets and adjacent `.pkginfo.txt` dumps.
-- `Content/OFPAFixture/` contains World Partition fixtures and `EditorEvidence.json`; related actor packages live in `Content/__ExternalActors__/`.
-- `Config/` stores project defaults. `.agents/skills/` contains shared agent instructions and tooling.
-- `Saved/`, `Intermediate/`, and `DerivedDataCache/` are generated, ignored directories.
+This Unreal Engine project provides real package and container fixtures for UCommander. Fixture assets live under `Content/`. Shared agent skills and their tooling live under `.agents/skills/`.
 
 ## Build, Test, and Development Commands
 
@@ -43,12 +37,14 @@ Follow the history's short, imperative commit subjects, such as `Add renamed sum
 
 In pull requests, describe the test case enabled, changed assets, engine version, and validation performed. Link related UCommander issues and include editor screenshots when they clarify fixture behavior. Include required external actor packages and updated evidence. Keep binary assets under Git LFS.
 
-## Codex Commit Attribution
+## Agent Commit Attribution
 
-Preserve the configured Git author identity. For each commit Codex creates with its own contribution, include the following trailer exactly once.
+Preserve the configured Git author identity. When an agent creates a commit that includes its contribution, include one `Co-authored-by` trailer for that agent. Use the agent's standard name and email. If the tooling already added the trailer, keep the existing entry.
+
+Codex uses this trailer.
 
 ```text
 Co-authored-by: Codex <noreply@openai.com>
 ```
 
-Skip the trailer for commits created solely by the owner or another agent. Do not rewrite existing commits to add attribution.
+Attribute agents only for commits they contributed to. Do not rewrite existing commits to add attribution.
