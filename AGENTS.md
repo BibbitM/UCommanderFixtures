@@ -29,6 +29,8 @@ Follow the existing asset naming conventions. Use `BP_` for Blueprints, `M_` for
 
 Validate changed assets in Unreal Editor and regenerate relevant package dumps. Keep `EditorEvidence.json` consistent with affected actors and package paths. PkgInfo runtime name-table indices can change between runs.
 
+Run Map Check on each level after every edit, by hand or by script, before you regenerate dumps or commit. Fix or report every Map Check error and warning. Without a GUI, load the map in an `-ExecutePythonScript` editor run (add `-EnablePlugins=PythonScriptPlugin,EditorScriptingUtilities`), run the console command `MAP CHECK`, and search the log for `MapCheck:` lines.
+
 Run consumer tests in UCommander when validating fixture changes against the reader. Record the engine version and validation steps for fixture changes.
 
 ## Commit & Pull Request Guidelines
