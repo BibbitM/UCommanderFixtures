@@ -8,7 +8,7 @@
   "notes": [
     "The DumpActorDescs CSV is written with TCHAR_TO_ANSI (UE 5.8.3 WorldPartition.cpp, UWorldPartition::DumpActorDescs), so the label 'Lampa żółta' shows as 'Lampa ???ta' there. The labels in this file come from WorldPartitionBlueprintLibrary.GetActorDescs in the same editor session.",
     "/Game/Summary/BP_SummaryActor is an ObjectRedirector to /Game/Summary/BP_SummaryActorRenamed in this project, so the 'Summary Actor' instance has the class BP_SummaryActorRenamed_C.",
-    "The runtime partition 'FixtureGrid' is not defined in the World Settings of the map (the RuntimeHashSet partitions are not exposed to Python). The actor 'Custom Grid Text' has RuntimeGrid=FixtureGrid, and Map Check reports 'invalid runtime grid FixtureGrid'."
+    "The runtime partition 'FixtureGrid' was added by hand in the World Settings of the map (Runtime Partitions) after the actors were saved; only L_OfpaMap.umap changed. The actor 'Custom Grid Text' has RuntimeGrid=FixtureGrid."
   ],
   "actors": [
     {
